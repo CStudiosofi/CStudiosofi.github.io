@@ -88,8 +88,9 @@ nav a{
 
 .noticias-imagen {
     border-radius: 15px;
-    width: 300px;
-    height: 300px;
+    width: 100%;
+    max-width: 300px; /* Opcional: Establece un ancho máximo para la imagen para evitar que se agrande demasiado en pantallas grandes */
+    height: auto; /* Esto mantendrá la relación de aspecto original de la imagen */
 }
 
 .noticias-texto {
@@ -153,14 +154,15 @@ nav a:hover{
     background-color: midnightblue; 
 }
 
-@media (max-height:600px){
+@media (max-height: 600px) {
     .noticias-contenido {
         flex-direction: column;
     }
 
     .noticias-imagen {
-        width: 50%;
-        height: 50%;
+        width: 100%;
+        max-width: 50%;
+        height: auto;
     }
 }
 
