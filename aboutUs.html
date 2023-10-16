@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acerca de nosotros</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <audio id="sonido">
+        <source src="PopSound.mp3" type="audio/mpeg">
+    </audio>
+
+    <header>
+        <a href="#" class="logo">
+            <img src="Images/CStudios-logo.png" alt="Logo" class="logo-img" onclick="reproducirSonido()">
+            <h2 class="logo-nombre">CStudios</h2>
+        <a/>
+        <nav>
+            <a href="index.html" class="nav-link"> <i class="fa-solid fa-house"></i> Inicio</a>
+            <a href="aboutUs.html" class="nav-link"> <i class="fa-solid fa-users"></i> Sobre nosotros</a>
+            <a href="contacto.html" class="nav-link"> <i class="fa-solid fa-phone"></i> Contacto</a>
+        </nav>
+    </header>
+
+    <main class="main">
+        <div class="contenido-inicial">
+            <h1>¿Quienes somos nosotros?</h1>
+        </div>
+        <div class="contenido-inicial">
+            <p>En CStudios, somos un grupo apasionado de desarrolladores y testers que tienen una misión apasionante:
+                crear experiencias de juego inolvidables en Roblox. A pesar de ser un grupo pequeño, nuestro compromiso
+                hacia la calidad y la innovación es inquebrantable.       
+            </p>
+        </div>
+
+        <div class="contenido-inicial">
+            <h1>¿Cual es nuestra historia?</h1>
+        </div>
+        <div class="contenido-inicial">
+            <p>
+                Nuestra historia comienza en febrero de 2022, cuando dos personas decidieron hacer un juego, pero para lograrlo
+                necesitaban la ayuda de un equipo bastante grande. Fue entonces cuando se crearon dos grupos: CStudios y REVOLUTIONS GAMES.
+                <br>
+                Después de varios meses de desarrollo del juego, el proyecto fue cancelado y RG dejó de estar activo,
+                quedando solo su fundador, quien ayudaría a rehacer el proyecto meses más tarde, aunque finalmente, debido a la falta
+                de personas, dinero y tiempo, el proyecto fue cancelado y CStudios comenzó a desarrollar juegos de manera independiente.
+                <br>
+                <br>
+                En un principio, CStudios era una parte pequeña de RG, pero con el tiempo fue creciendo hasta convertirse en lo que es hoy. Aunque algunas personas se fueron, también se unieron más para ayudarnos, pero nunca seremos igual que al principio.
+            </p>            
+        </div>
+
+        <div class="contenido-inicial">
+            <h1>Misión y visión</h1>
+        </div>
+        <div class="contenido-inicial">
+            <h3>Misión:</h3>
+        </div>
+        <div class="contenido-inicial">
+            <p>
+                Nuestra misión es crear experiencias de juego únicas y entretenidas en Roblox que inspiren y conecten
+                a jugadores de todo el mundo. Buscamos impulsar la creatividad, la colaboración y la diversión a través
+                de nuestros juegos, manteniendo siempre un espíritu de perseverancia y adaptabilidad que nos distinga 
+                como un grupo de desarrollo dedicado.
+            </p>
+        </div>
+        <div class="contenido-inicial">
+            <h3>Visión:</h3>
+        </div>
+        <div class="contenido-inicial">
+            <p>
+                Nuestra visión es convertirnos en un referente de la comunidad de Roblox, reconocidos por la calidad de 
+                nuestros juegos y la pasión con la que los creamos. Queremos ser un grupo en constante crecimiento, donde 
+                la innovación y la diversidad de talentos se combinen para dar vida a experiencias que dejen una huella duradera 
+                en la plataforma de Roblox. Seguiremos evolucionando y creciendo, manteniendo vivo el espíritu de nuestro inicio, mientras 
+                exploramos nuevas posibilidades y desafíos en el mundo del desarrollo de juegos.</p>
+        </div>
+    </main>
+
+    <script>
+        function reproducirSonido() {
+            var audio = document.getElementById('sonido');
+            audio.play();
+        }
+    </script>
+</body>
+</html>

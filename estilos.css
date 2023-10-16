@@ -1,0 +1,192 @@
+body{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    min-height: 70px;
+    background-color: royalblue;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.main {
+    padding-top: 12rem;
+    margin: 5px;
+}
+
+.logo-img {
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 15px;
+}
+
+
+nav a{
+    transition: all 0.5s ease;
+    font-weight: 600;
+    padding-right: 25px;
+}
+
+.nav.active{
+        background-color: white;
+}
+
+.scrol{
+    height: 100px;
+}
+
+.contenido-inicial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.default-hr {
+    color: black;
+}
+
+
+.noticias-espacio {
+    display: grid;
+    place-items: center;
+    width: 80%;
+    background-color: darkslateblue;
+    border-radius: 15px;
+}
+
+.noticias-contenido {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.noticias-titulo {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.noticias-imagen {
+    border-radius: 15px;
+    width: 300px;
+    height: 300px;
+}
+
+.noticias-texto {
+    color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.juegos {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.juegos-espacio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.juego-Contenido {
+    padding: 5px;
+    display: grid;
+    place-items: center;
+    width: 80%;
+    background-color: darkslateblue;
+    border-radius: 15px;
+}
+
+.juego-titulo {
+    color: white;
+}
+
+.juego-texto {
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.juego-image{
+    width: 100%;
+    height: 50%;
+}
+
+.default-link {
+    font-size: 30px;
+    color: deepskyblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.creditos-Text{
+    color: chartreuse;
+    font-size: 15px;
+}
+
+
+nav a:hover{
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: midnightblue; 
+}
+
+@media (max-height:500px){
+    .noticias-contenido {
+        flex-direction: column;
+    }
+
+    .noticias-imagen {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+
+    nav{
+        padding: 10px 0px;
+    }
+
+    .noticias-texto {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 900px){
+    .noticias-contenido {
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    .noticias-imagen {
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    }
+}
