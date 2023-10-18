@@ -146,6 +146,38 @@ nav a{
     font-size: 15px;
 }
 
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario-espacio {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    background-color: blueviolet;
+    color: white;
+}
+
+.formulario-contenido {
+    border-radius: 20px;
+}
+
+.formulario-button {
+    background-color: rgb(99, 69, 184);
+    border-radius: 20px;
+    width: 125px;
+    height: 50px;
+}
+
+.button-space{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 nav a:hover{
     padding: 5px 10px;
