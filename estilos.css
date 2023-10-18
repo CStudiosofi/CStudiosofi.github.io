@@ -164,6 +164,7 @@ nav a{
 
 .formulario-contenido {
     border-radius: 20px;
+    size: 50px;
 }
 
 .formulario-button {
@@ -213,6 +214,14 @@ nav a:hover{
 }
 
 @media (max-width: 900px){
+    .formulario {
+        flex-direction: column;
+    }
+
+    .formulario-espacio {
+        padding: 10px;
+    }
+
     .noticias-contenido {
         padding: 10px;
         flex-direction: column;
