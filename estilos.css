@@ -152,6 +152,10 @@ nav a{
     align-items: center;
 }
 
+.background {
+    background-image: url(https://wallpapercave.com/wp/wp10675683.png);
+}
+
 .formulario-espacio {
     width: 80%;
     display: flex;

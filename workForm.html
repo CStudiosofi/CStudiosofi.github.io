@@ -3,102 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="CStudios-logo.icon">
     <title>Formulario para trabajar en CStudios</title>
     <link rel="stylesheet" href="estilos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+    <div class="background">
+        <header>
+            <a href="#" class="logo">
+                <img src="Images/CStudios-logo.png" alt="Logo" class="logo-img">
+                <h2 class="logo-nombre" lang="es" translate="no">CStudios</h2>
+            </a> <!-- Aquí está la corrección -->
+            <nav>
+                <a href="index.html" class="nav-link"> <i class="fa-solid fa-house"></i>Inicio</a>
+                <a href="aboutUs.html" class="nav-link"> <i class="fa-solid fa-users"></i>Sobre nosotros</a>
+                <a href="contacto.html" class="nav-link"> <i class="fa-solid fa-phone"></i>Contacto</a>
+            </nav>
+        </header>
 
-    <header>
-        <a href="#" class="logo">
-            <img src="Images/CStudios-logo.png" alt="Logo" class="logo-img">
-            <h2 class="logo-nombre" lang="es" translate="no">CStudios</h2>
-        </a> <!-- Aquí está la corrección -->
-        <nav>
-            <a href="index.html" class="nav-link"> <i class="fa-solid fa-house"></i>Inicio</a>
-            <a href="aboutUs.html" class="nav-link"> <i class="fa-solid fa-users"></i>Sobre nosotros</a>
-            <a href="contacto.html" class="nav-link"> <i class="fa-solid fa-phone"></i>Contacto</a>
-        </nav>
-    </header>
-
-    <main class="main">
-        <div class="formulario">
-            <h4>Este formulario es seguro, aunque es posible que Google detecte lo contrario. No se preocupe si Google muestra una advertencia al enviar el formulario. </h4>
-        </div>
-        <div class="formulario">
-            <div class="formulario-espacio">
-                <form enctype="text/plain" action="mailto:cstudiosofi@gmail.com" method="post">
-                    <label for="nombre">Nombre de usuario de roblox:</label>
-                    <br>
-                    <input type="text" name="nombre" class="formulario-contenido" required>
-                    <br>
-                    <br>
-                    <label for="e-mail">Correo electronico</label>
-                    <br>
-                    <input type="e-mail" name="e-mail" class="formulario-contenido" required>
-                    <br>
-                    <br>
-                    <laber for="motivo">¿Por que quiere trabajar con nosotros?</laber>
-                    <br>
-                    <input type="text" name="motivo" class="formulario-contenido" required>
-                    <br>
-                    <br>
-                    <label for="edad">Ingrese su edad</label>
-                    <select name="edad" required>
-                        <option value="0-9">
-                            0 - 9 años
-                        </option>
-        
-                        <option value="9-12">
-                            9 - 12 años
-                        </option>
-        
-                        <option value="13-17">
-                            13 - 17 años
-                        </option>
-        
-                        <option value="+18">
-                            +18 años
-                        </option>
-                    </select>
-                    <br>
-                    <br>
-                    <label for="genero">Género</label>
-                    <br>
-                    <label for="hombre">Hombre</label>
-                    <input type="radio" name="genero" id="hombre" value="Hombre" required>
-                    <label for="mujer">Mujer</label>
-                    <input type="radio" name="genero" id="mujer" value="Mujer" required>
-                    <br>
-                    <br>    
-                    <label for="trabajo">Seleccione de que quisiera trabajar</label>
-                    <select name="trabajo" required>
-                        <option value="scripter">Scripter</option>
-                        <option value="tester">Tester</option>
-                        <option value="builder">Builder</option>
-                        <option value="administrator">Administrator</option>
-                    </select>
-                    <br>
-                    <br>
-                    <label for="enGrupo">¿Estas en el grupo de CStudios en roblox?</label>
-                    <br>
-                    <label>Si</label>
-                    <input type="radio" name="enGrupo" value="si">
-                    <label>No</label>
-                    <input type="radio" name="enGrupo" value="No">
-                    <br>
-                    <br>
-                    <h2>Al enviar el formulario, estás aceptando la paga que te demos siempre y cuando cumpla con lo prometido.</h2>
-                    <br>
-                    <br>
-                    <div class="button-space">
-                        <p aling="center"><input type="submit" value="enviar" class="formulario-button"> <input type="reset" value="reset" class="formulario-button"> </p>
-                    </div>
-                    <br>
-                    <br>
-                </form>
+        <main class="main">
+            <div class="formulario">
+                <h4 style="color: white;">Este formulario es seguro, aunque es posible que Google detecte lo contrario. No se preocupe si Google muestra una advertencia al enviar el formulario. </h4>
             </div>
-        </div>
-    </main>
+            <div class="formulario">
+                <div class="formulario-espacio">
+                    <form enctype="text/plain" action="mailto:cstudiosofi@gmail.com" method="post">
+                        <label for="nombre">Nombre de usuario de roblox:</label>
+                        <br>
+                        <input type="text" name="nombre" class="formulario-contenido" required>
+                        <br>
+                        <br>
+                        <label for="e-mail">Correo electronico</label>
+                        <br>
+                        <input type="e-mail" name="e-mail" class="formulario-contenido" required>
+                        <br>
+                        <br>
+                        <laber for="motivo">¿Por que quiere trabajar con nosotros?</laber>
+                        <br>
+                        <input type="text" name="motivo" class="formulario-contenido" required>
+                        <br>
+                        <br>
+                        <label for="edad">Ingrese su edad</label>
+                        <select name="edad" required>
+                            <option value="0-9">
+                                0 - 9 años
+                            </option>
+            
+                            <option value="9-12">
+                                9 - 12 años
+                            </option>
+            
+                            <option value="13-17">
+                                13 - 17 años
+                            </option>
+            
+                            <option value="+18">
+                                +18 años
+                            </option>
+                        </select>
+                        <br>
+                        <br>
+                        <label for="genero">Género</label>
+                        <br>
+                        <label for="hombre">Hombre</label>
+                        <input type="radio" name="genero" id="hombre" value="Hombre" required>
+                        <label for="mujer">Mujer</label>
+                        <input type="radio" name="genero" id="mujer" value="Mujer" required>
+                        <br>
+                        <br>    
+                        <label for="trabajo">Seleccione de que quisiera trabajar</label>
+                        <select name="trabajo" required>
+                            <option value="scripter">Scripter</option>
+                            <option value="tester">Tester</option>
+                            <option value="builder">Builder</option>
+                            <option value="administrator">Administrator</option>
+                        </select>
+                        <br>
+                        <br>
+                        <label for="enGrupo">¿Estas en el grupo de CStudios en roblox?</label>
+                        <br>
+                        <label>Si</label>
+                        <input type="radio" name="enGrupo" value="si">
+                        <label>No</label>
+                        <input type="radio" name="enGrupo" value="No">
+                        <br>
+                        <br>
+                        <h2>Al enviar el formulario, estás aceptando la paga que te demos siempre y cuando cumpla con lo prometido.</h2>
+                        <br>
+                        <br>
+                        <div class="button-space">
+                            <p aling="center"><input type="submit" value="enviar" class="formulario-button"> <input type="reset" value="reset" class="formulario-button"> </p>
+                        </div>
+                        <br>
+                        <br>
+                    </form>
+                </div>
+            </div>
+        </main>
+    </div>
 </body>
 </html> 
