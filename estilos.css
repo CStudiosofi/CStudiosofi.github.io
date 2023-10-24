@@ -150,6 +150,7 @@ nav a{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .background {
@@ -162,8 +163,9 @@ nav a{
     justify-content: center;
     align-items: center;
     border-radius: 25px;
-    background-color: blueviolet;
+    background-color: rgba(255, 255, 255, 0.11);
     color: white;
+    backdrop-filter: blur(5px);
 }
 
 .formulario-contenido {
@@ -172,10 +174,19 @@ nav a{
 }
 
 .formulario-button {
-    background-color: rgb(99, 69, 184);
+    background-color: rgba(255, 255, 255, 0.123);
     border-radius: 20px;
     width: 125px;
     height: 50px;
+    backdrop-filter: blur(5px);
+}
+
+.formulario-input {
+    width: 300px; /* Ancho fijo */
+    height: 80px; /* Alto fijo */
+    padding: 10px; /* Espacio interno para el contenido */
+    font-size: 16px; /* Tamaño de fuente */
+    border-radius: 10px;
 }
 
 .button-space{
@@ -215,6 +226,10 @@ nav a:hover{
     .noticias-texto {
         font-size: 13px;
     }
+
+    .formulario-input {
+        width: 150px; /* Ancho fijo */
+    }
 }
 
 @media (max-width: 900px){
@@ -235,5 +250,9 @@ nav a:hover{
     border-radius: 15px;
     width: 100%;
     height: 100%;
+    }
+
+    .formulario-input {
+        width: 190px; /* Ancho fijo */
     }
 }
