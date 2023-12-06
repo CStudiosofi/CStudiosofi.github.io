@@ -6,7 +6,7 @@ body{
 header {
     display: flex;
     min-height: 70px;
-    background-color: royalblue;
+    background-color: #06b0ff;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
@@ -68,7 +68,7 @@ nav a{
     display: grid;
     place-items: center;
     width: 80%;
-    background-color: darkslateblue;
+    background-color: #06b0ff;
     border-radius: 15px;
 }
 
@@ -80,7 +80,7 @@ nav a{
 }
 
 .noticias-titulo {
-    color: white;
+    color: #0e3c5d;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -116,12 +116,12 @@ nav a{
     display: grid;
     place-items: center;
     width: 80%;
-    background-color: darkslateblue;
+    background-color: #009dff;
     border-radius: 15px;
 }
 
 .juego-titulo {
-    color: white;
+    color: #0e3c5d;
 }
 
 .juego-texto {
@@ -137,7 +137,7 @@ nav a{
 
 .default-link {
     font-size: 30px;
-    color: deepskyblue;
+    color: #0e3c5d;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -199,7 +199,7 @@ nav a:hover{
     padding: 5px 10px;
     border-radius: 10px;
     color: white;
-    background-color: midnightblue; 
+    background-color: #0d649b; 
 }
 
 @media (max-height: 600px) {
