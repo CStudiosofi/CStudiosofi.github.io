@@ -68,7 +68,7 @@ nav a{
     display: grid;
     place-items: center;
     width: 80%;
-    background-color:rgb(115, 125, 255);
+    background-color:rgb(115, 125, 250);
     border-radius: 15px;
 }
 
