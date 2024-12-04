@@ -6,7 +6,7 @@ body{
 header {
     display: flex;
     min-height: 70px;
-    background-color: #06b0ff;
+    background-color:rgb(100, 115, 255);
     justify-content: space-between;
     align-items: center;
     padding: 10px;
@@ -68,7 +68,7 @@ nav a{
     display: grid;
     place-items: center;
     width: 80%;
-    background-color: #06b0ff;
+    background-color:rgb(115, 125, 255);
     border-radius: 15px;
 }
 
@@ -116,7 +116,7 @@ nav a{
     display: grid;
     place-items: center;
     width: 80%;
-    background-color: #009dff;
+    background-color:rgb(115, 125, 255);
     border-radius: 15px;
 }
 
@@ -199,7 +199,7 @@ nav a:hover{
     padding: 5px 10px;
     border-radius: 10px;
     color: white;
-    background-color: #0d649b; 
+    background-color: rgb(90, 90, 200); 
 }
 
 @media (max-height: 600px) {
